@@ -17,7 +17,6 @@ while (True):
     cv2.imshow("firstLive", img)
     #chaque 1ms un nouveau frame doit apparaitre
     key=cv2.waitKey(1)
-    print(key)
     # quand l'utilisateur click sur la touche q on va devoir fermer la frame qui souvre
     if key==ord("q"):
         break
